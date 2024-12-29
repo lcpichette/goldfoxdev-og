@@ -1,0 +1,18 @@
+{
+	"/": [],
+	"/admin": [
+		"src/routes/admin/+page.ts"
+	],
+	"/authorize": [],
+	"/blog": [
+		"src/routes/blog/+page.ts"
+	],
+	"/delivered": [],
+	"/jobs": [],
+	"/post/[slug]": [
+		"src/routes/post/[slug]/+page.ts"
+	],
+	"/pricing": [],
+	"/qualifications": [],
+	"/testimonials": []
+}

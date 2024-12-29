@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="utf-8" />
+                <link rel="icon" href="/favicon.png" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- These are useful for search engines when crawling the internet for your website -->
+                <meta name="description" content="Save avg. $59k/engineer/yr - Scalable Contract Engineering Team" />
+                <meta name="keywords" content="software engineers, contract, full stack engineers, experienced engineers, software development, software developers" />
+                <meta name="author" content="Lucas Pichette">
+
+                <!-- This tells the search engines whether to follow all of the links on your site. If you only want them to track your homepage, replace content="all,follow" with content="index,follow" -->
+                <meta name="robots" content="all, follow" />
+
+
+                <!-- These are the little icons that show up next to the title of the URL in the browser tab. For these to work, you must include a favicon.png file in the root of your website directory. This can also be favicon.jpg if you prefer, you just need to change the link in the href to favicon.jpg for it to work -->
+                <link rel="shortcut icon" href="favicon.png">
+                <link rel="icon" href="favicon.png" type="image/x-icon" />
+
+                <!-- Social Media stuff. This all makes your links look much nicer and more shareable on Facebook and Twitter -->
+                <!-- Facebook meta links - OG stands for OpenGraph by the way! -->
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Gold Fox Dev" />
+                <meta property="og:description" content="Save avg. $59k/engineer/yr - Scalable Contract Engineering Team" />
+                <meta property="og:url" content="https://goldfoxdev.com" />
+                <meta property="og:site_name" content="Gold Fox Dev" />
+                <meta property="og:image" content="/img/11.jpg" />
+                <!-- Twitter meta links -->
+                <meta name="twitter:card" content="summary" />
+                <meta name="twitter:description" content="Save avg. $59k/engineer/yr - Scalable Contract Engineering Team" />
+                <meta name="twitter:title" content="Gold Fox Dev" />
+                <meta name="twitter:image" content="/img/11.jpg" />
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-77S1FC8NBV"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-192095315-1');
+		</script>
+		
+		<!-- Auth0 -->
+		<script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics (Visits) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-77S1FC8NBV"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-77S1FC8NBV');
+        </script>
+                        
+		%sveltekit.head%
+	</head>
+	<body>
+		<div id="svelte">%sveltekit.body%</div>
+	</body>
+</html>
